@@ -1,0 +1,52 @@
+@font-face { 
+	font-family: 'MyWebFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+}
+
+body {
+    margin: 0;
+    background-color: #075985;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    margin:auto;
+}
+h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    
+}
+
+h1 {
+    color: red;
+    font-size: 120px;
+    font-family: 'cursedtimerulil', Arial, sans-serif;
+    width: 150 px;
+    display: block;
+    background-color: black;
+ 
+}
+
+.addScore{
+    width: 50px;
+    height: 50px;
+    border: white 2px solid;
+    margin: 5px;
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+}
+.addScore p{
+    margin:auto;
+}
+

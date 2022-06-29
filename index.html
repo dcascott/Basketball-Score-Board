@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="index.css">
+	<link rel="stylesheet" href="webfontkit/stylesheet.css" type="text/css" charset="utf-8" />
+<!--Code Challenge: Make a base ball score board using the following rules and figma design: https://www.figma.com/file/mHwnUy1yScDyv1Y4QjErS6/Basketball-Scoreboard-(Copy)
+1. build from all HTML, CSS, and JS files from scratch, 2. Follow the design, 3. Makle all six buttones work
+Bonus: 4. Add "New Game button" 5. Highlight the leader, 6. Add more counters (Foul, timer, period)-->
+</head>
+
+<body>
+	<div class="container">
+		<div class="column">
+			<h3>HOME</h3>
+			<div > 
+				<h1 id="totalHomeScore" class="scoreHome">0</h1>
+				<button class="addScore" onclick= "add1Home()">+1</button>
+				<button class="addScore" onclick="add2Home()">+2</button>
+				<button class="addScore" onclick="add3Home()">+3</button>
+			</div>
+		</div>
+
+		<div  class="column">
+			<h3>GUEST</h3>
+			<div> 
+				<h1 id="totalGuestScore" class="scoreHome">0</h1>
+				<button class="addScore" onclick= "add1Guest()">+1</button>
+				<button class="addScore" onclick="add2Guest()">+2</button>
+				<button class="addScore" onclick="add3Guest()">+3</button>
+			</div>
+		</div>
+	</div>
+	<script src="index.js"></script>
+</body>
+
+</html>
